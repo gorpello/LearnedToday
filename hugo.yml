@@ -71,37 +71,35 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Learned Today by Gianlcua"
+    Title: "Learned Today"
     Content: "This is the place where I share about my discoveries."
 
   socialIcons:
-  - name: x
-    url: "https: //x.com/"
-  - name: stackoverflow
-    url: "https: //stackoverflow.com"
   - name: github
-    url: "https: //github.com/"
+    url: "https://github.com/gorpello"
+  - name: linkedin
+    url: "https://www.linkedin.com/in/gianlucaorpello/"
+  - name: x
+    url: "https://x.com/GOrpello"
+  - name: bluesky
+    url: "https://bsky.app/profile/gianlucaorpello.com"
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "G-987E4LE2NQ"
 
   cover:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https: //github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+  # editPost:
+  #   URL: "https: //github.com/<path_to_repo>/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: true # to append file path to Edit link
 
   # for search
-  # https: //fusejs.io/api/options.html
+  # https://fusejs.io/api/options.html
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -111,6 +109,7 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https: //www.fusejs.io/api/methods.html#search
     keys: [ "title", "permalink", "summary", "content" ]
+
 menu:
   main:
   - identifier: categories
@@ -121,10 +120,11 @@ menu:
     name: tags
     url: /tags/
     weight: 20
-  - identifier: example
-    name: example.org
-    url: 'https://learnedby.gianlucaorpello.com/'
+  - identifier: Unicorn Donkeys
+    name: unicorndonkeys.com
+    url: 'https://unicorndonkeys.com'
     weight: 30
+
 # Read: https: //github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
