@@ -110,16 +110,25 @@ params:
     limit: 10 # refer: https: //www.fusejs.io/api/methods.html#search
     keys: [ "title", "permalink", "summary", "content" ]
 
+languages:
+  en:
+    languageName: "English"
+    weight: 2
+    taxonomies:
+      tag: tags
+
+  it:
+    languageName: ":it:"
+    weight: 1
+    taxonomies:
+      tag: tags
+
 menu:
   main:
-  - identifier: categories
-    name: categories
-    url: /categories/
-    weight: 10
   - identifier: tags
     name: tags
     url: /tags/
-    weight: 20
+    weight: 10
   - identifier: Unicorn Donkeys
     name: unicorndonkeys.com
     url: 'https://unicorndonkeys.com'
