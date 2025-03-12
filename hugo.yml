@@ -1,7 +1,7 @@
 baseURL: 'https://learnedby.gianlucaorpello.com/'
 languageCode: 'en-us'
 title: 'Learned Today'
-theme: 'PaperMod'
+theme: 'LearnedToday'
 
 enableRobotsTXT: true
 buildDrafts: false
