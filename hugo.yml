@@ -72,7 +72,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Learned Today"
-    Content: "This is the place where I share about my discoveries."
+    Content: "This is the place where I share about my discoveries. Here I write about everything I discover so that I don't forget them. 🙈"
 
   socialIcons:
   - name: github
