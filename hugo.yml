@@ -16,10 +16,10 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "Learned Today"
   description: "Learned Today by Gianluca"
-  keywords: [ Blog, Portfolio, Swift, SwiftUI, Apple, Development, XCode ]
+  keywords: [ Blog, Portfolio, Swift, SwiftUI, Apple, Development, XCode, Coding, Tech ]
   author: Gianluca Orpello
   # author: ["Me", "You"] # multiple authors
-  images: [ "<link or path of image for opengraph, twitter-cards>" ]
+  images: [ "./assets/images/LearnedToday-TwitterCard.png" ]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -53,21 +53,6 @@ params:
     text: "Learned Today"
     icon: /apple-touch-icon.png
     iconHeight: 35
-
-  # profile-mode
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: "Learned Today"
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-    - name: Posts
-      url: posts
-    - name: Tags
-      url: tags
 
   # home-info mode
   homeInfoParams:
