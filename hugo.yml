@@ -1,0 +1,131 @@
+baseURL: 'https://learnedby.gianlucaorpello.com/'
+languageCode: 'en-us'
+title: 'Learned Today'
+theme: 'LearnedToday'
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: "Learned Today"
+  description: "Learned Today by Gianluca"
+  keywords: [ Blog, Portfolio, Swift, SwiftUI, Apple, Development, XCode, Coding, Tech ]
+  author: Gianluca Orpello
+  # author: ["Me", "You"] # multiple authors
+  images: [ "./assets/images/LearnedToday-TwitterCard.png" ]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Learned Today"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Learned Today"
+    Content: "This is the place where I share about my discoveries. Here I write about everything I discover so that I don't forget them. 🙈"
+
+  socialIcons:
+  - name: github
+    url: "https://github.com/gorpello"
+  - name: linkedin
+    url: "https://www.linkedin.com/in/gianlucaorpello/"
+  - name: x
+    url: "https://x.com/GOrpello"
+  - name: bluesky
+    url: "https://bsky.app/profile/gianlucaorpello.com"
+
+  analytics:
+    google:
+      SiteVerificationTag: "G-987E4LE2NQ"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # editPost:
+  #   URL: "https: //github.com/<path_to_repo>/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https: //www.fusejs.io/api/methods.html#search
+    keys: [ "title", "permalink", "summary", "content" ]
+
+languages:
+  en:
+    languageName: "English"
+    weight: 2
+    taxonomies:
+      tag: tags
+
+  it:
+    languageName: ":it:"
+    weight: 1
+    taxonomies:
+      tag: tags
+
+menu:
+  main:
+  - identifier: tags
+    name: tags
+    url: /tags/
+    weight: 10
+  - identifier: Unicorn Donkeys
+    name: unicorndonkeys.com
+    url: 'https://unicorndonkeys.com'
+    weight: 30
+
+# Read: https: //github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai

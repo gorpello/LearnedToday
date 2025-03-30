@@ -1,0 +1,3 @@
+[submodule "themes/LearnedToday"]
+	path = themes/LearnedToday
+	url = git@github.com:gorpello/LearnedToday-Template.git
